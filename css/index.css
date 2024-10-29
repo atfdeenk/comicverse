@@ -15,7 +15,7 @@ header {
   background-color: white;
 }
 .topnav {
-  display: flex;~
+  display: flex;
   justify-content: space-between;
   align-items: center;
   margin-left: 20px;
@@ -115,7 +115,7 @@ header {
 body {
   display: grid;
 }
-.scrollTop {
+.goTop {
   display: none;
   position: fixed;
   bottom: 20px;
