@@ -7,7 +7,7 @@ function closeNav() {
   document.getElementById('main').style.marginRight = '0px';
 }
 
-let mybutton = document.getElementById('scrollTop');
+let mybutton = document.getElementById('goTop');
 
 window.onscroll = function () {
   scrollFunction();
@@ -21,8 +21,7 @@ function scrollFunction() {
   }
 }
 
-// When the user clicks on the button, scroll to the top of the document
-function scrollTop() {
+function goTop() {
   document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
