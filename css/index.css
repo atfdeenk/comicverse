@@ -1,0 +1,145 @@
+@import url('https://fonts.cdnfonts.com/css/mckloud');
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 0;
+  border-style: solid;
+  border-color: gray;
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-behavior: smooth;
+}
+header {
+  position: sticky;
+  top: 0;
+  background-color: white;
+}
+.topnav {
+  display: flex;~
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.topnav .nav-logo {
+  width: 60px;
+  height: 60px;
+}
+.topnav .nav-logo:hover {
+  width: 70px;
+  height: 70px;
+}
+.topnav .nav-title {
+  /* font-family: 'McKloud White', sans-serif; */
+  /* font-family: 'McKloud Tempest', sans-serif; */
+  font-family: 'McKloud Storm', sans-serif;
+  /* font-family: 'McKloud Shadow', sans-serif; */
+  /* font-family: 'McKloud Misty', sans-serif; */
+  /* font-family: 'McKloud Black', sans-serif; */
+  font-size: 50px;
+  color: blueviolet;
+}
+.topnav .nav-title:hover {
+  font-size: 60px;
+}
+.topnav .hamBtn {
+  font-size: 50px;
+  cursor: pointer;
+}
+.topnav .hamBtn:hover {
+  font-size: 60px;
+}
+.sidenav {
+  background-color: white;
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  transition: 0.7s;
+  padding-top: 55px;
+}
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  right: 20px;
+  font-size: 50px;
+}
+.sidenav .closebtn:hover {
+  font-size: 60px;
+}
+.sidenav a {
+  display: block;
+  margin: 10px;
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  color: #818181;
+  transition: 0.3s;
+  font-size: 25px;
+  /* position: relative; */
+}
+/* .sidenav .active {
+  background-color: dodgerblue;
+  color: black;
+} */
+/* .sidenav a.menu::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 0;
+  height: 100%;
+  background-color: whitesmoke;
+  transition: width 0.3s ease-out;
+  z-index: -1;
+} */
+/* .sidenav a:hover::before {
+  width: 100%;
+} */
+.sidenav a:hover {
+  font-size: xxx-large;
+  color: black;
+}
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+body {
+  display: grid;
+}
+.scrollTop {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: black;
+  color: white;
+  cursor: pointer;
+  padding: 10px 15px 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+footer {
+  border-top-width: 1px;
+  margin-top: 20px;
+  height: 4rem;
+}
+.copyrights {
+  height: 4rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: gray;
+}
